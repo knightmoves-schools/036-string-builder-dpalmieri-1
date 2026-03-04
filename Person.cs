@@ -12,9 +12,10 @@ public class Person {
    }
 
    // Add your code here
-   string BuildFullName(){
+   public string BuildFullName(){
       StringBuilder fullName = new StringBuilder($"{firstName}, {lastName}");
       return fullName.ToString();
    }
 }
+
 
