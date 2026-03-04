@@ -1,5 +1,7 @@
 ﻿namespace knightmoves;
 
+using System.Text;
+
 public class Person {
    private string firstName;
    private string lastName;
@@ -15,3 +17,4 @@ public class Person {
       return fullName.ToString();
    }
 }
+
